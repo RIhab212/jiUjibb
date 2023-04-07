@@ -7,13 +7,15 @@ import Validrecords from './components/views/validrecords'
 import FormC from "./components/FormC";
 import Phonesignup from "./Phonesignup";
 import RecordList from "./components/views/recordList"
+
 import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes> 
-        <Route path="/Login" element={<Login />} />
+      <Routes>
+          <Route path="/Login" exact element={<Login />} />
+
         <Route path="/signup" element={< Signup/>} />
         <Route path="/adminespace" element={<AdminInterface/>}/>
         <Route path="/userLoggedInDetails" element={<UserLoggedInDetails/>}/>
@@ -22,6 +24,8 @@ function App() {
          <Route path="/Phonesignup"exact element={<Phonesignup/>}/>
          <Route path="/validrecords" element={<Validrecords/>}/>
          <Route path="/recordList" element={<RecordList/>}/>
+
+
       </Routes>
     </BrowserRouter>
   );
