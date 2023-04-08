@@ -13,9 +13,14 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
+<<<<<<< HEAD
       <Routes>
           <Route path="/Login" exact element={<Login />} />
 
+=======
+      <Routes> 
+        <Route path="/Login" exact element={<Login />} />
+>>>>>>> 96b5623340df62c2ef751a8d8c6806766598cd86
         <Route path="/signup" element={< Signup/>} />
         <Route path="/adminespace" element={<AdminInterface/>}/>
         <Route path="/userLoggedInDetails" element={<UserLoggedInDetails/>}/>
