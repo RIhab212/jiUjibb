@@ -19,7 +19,7 @@ function App() {
         <Route path="/jiUjibb" element={<AdminInterface/>}/>
         <Route path="/jiUjibb" element={<UserLoggedInDetails/>}/>
          <Route path="/jiUjibb" element={<Validrecords/>}/>
-         <Route path="/jiUjibb" element={<FormC/>}/>
+         <Route path="/jiUjibb/FormC" element={<FormC/>}/>
          <Route path="/jiUjibb" element={<Phonesignup/>}/>
          <Route path="/jiUjibb" element={<Validrecords/>}/>
          <Route path="/jiUjibb" element={<RecordList/>}/>
