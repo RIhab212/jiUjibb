@@ -15,14 +15,14 @@ function App() {
 <BrowserRouter>
       <Routes> 
         <Route path="/jiUjibb" exact element={<Login/>} />
-        <Route path="/jiUjibb" element={< Signup/>} />
-        <Route path="/jiUjibb" element={<AdminInterface/>}/>
-        <Route path="/jiUjibb" element={<UserLoggedInDetails/>}/>
-         <Route path="/jiUjibb" element={<Validrecords/>}/>
-         <Route path="/jiUjibb" element={<FormC/>}/>
-         <Route path="/jiUjibb" element={<Phonesignup/>}/>
-         <Route path="/jiUjibb" element={<Validrecords/>}/>
-         <Route path="/jiUjibb" element={<RecordList/>}/>
+        <Route path="/jiUjibb/Signup" element={< Signup/>} />
+        <Route path="/jiUjibb/AdminInterface" element={<AdminInterface/>}/>
+        <Route path="/jiUjibb/UserLoggedInDetails" element={<UserLoggedInDetails/>}/>
+         <Route path="/jiUjibb/Validrecords" element={<Validrecords/>}/>
+         <Route path="/jiUjibb/FormC" element={<FormC/>}/>
+         <Route path="/jiUjibb/Phonesignup" element={<Phonesignup/>}/>
+         <Route path="/jiUjibb/Validrecords" element={<Validrecords/>}/>
+         <Route path="/jiUjibb/RecordList" element={<RecordList/>}/>
 
 
       </Routes>
